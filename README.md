@@ -9,7 +9,7 @@ An application to calculate covid risk for users where users can register and te
 
 # Installation
 - Clone repo & cd to project directory
-> $ git clone ; cd covid_tracker
+> $ git clone https://github.com/Swati0107/covid_tracker.git; cd covid_tracker
 - Create Virtual Environment
 > $ python3 -m venv {env_name}
 - Install Requirements
@@ -20,7 +20,7 @@ An application to calculate covid risk for users where users can register and te
 # User Registration API
 - A user can register by providing his name, mobile number and pin code.
 ```
-- Request
+Request
 ```
 ```
 curl --request POST \
@@ -34,7 +34,7 @@ curl --request POST \
 }'
 ```
 ```
-- Response
+Response
 ```
 ```
 {
@@ -48,7 +48,7 @@ curl --request POST \
 # User Admin Registration API
 - Admin registration to provide admin options for the covid health workers.
 ```
-- Request
+Request
 ```
 ```
 curl --request POST \
@@ -62,7 +62,7 @@ curl --request POST \
 }'
 ```
 ```
-- Response
+Response
 ```
 ```
 {
@@ -76,7 +76,7 @@ curl --request POST \
 # User Covid Result Update API
 - Health workers can enter the result of covid tests for patients.
 ```
-- Request
+Request
 ```
 ```
 curl --request PUT \
@@ -90,7 +90,7 @@ curl --request PUT \
 }'
 ```
 ```
-- Response
+Response
 ```
 ```
 {
@@ -104,7 +104,7 @@ curl --request PUT \
 # User Self Assessment API
 - A Users can provide few details and can see the risk of being affected by covid based on self assessment.
 ```
-- Request
+Request
 ```
 ```
 curl --request POST \
@@ -123,7 +123,7 @@ curl --request POST \
 }'
 ```
 ```
-- Response
+Response
 ```
 ```
 {
